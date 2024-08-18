@@ -2,10 +2,11 @@
 
 #Workflow
 ![alt text](image.png)
-git pull origin main <pull everything from Github>
+git clone <link the repo you want to clone>
 git add . <add all the new changes/files>
 git commit -m "message you wanna add to this update"
 git push <push everything to github>
+git pull origin main <pull everything from Github>
 
 #Reset/Undo Changes
 Git reset <file name only if you want to reset one file not everything> <this only works if you already did the add command but didn't commit.>
